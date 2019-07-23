@@ -17,7 +17,7 @@ import numpy as np
 import tensorflow as tf
 from tensorflow.python.platform import googletest
 
-
+#Testtttttttttttttttttttttt
 class FeatureStatisticsGeneratorTest(googletest.TestCase):
 
   def setUp(self):
@@ -43,7 +43,7 @@ class FeatureStatisticsGeneratorTest(googletest.TestCase):
     for i in range(len(examples)):
       self.assertEqual(1, info['counts'][i])
       self.assertEqual(i, info['vals'][i])
-
+#test2
   def testParseExampleMissingValueList(self):
     # Tests parsing examples of integers
     examples = []
